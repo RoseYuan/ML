@@ -1,0 +1,7 @@
+Tried lightGBM, Xgboost, Neural network.
+Tried subsampling and weights to deal with the imbalanced data.
+  Down sampling works better than oversampling! 
+  Be careful to use validation data if do over-sampling before data split!
+Tried focal loss to put more strength on learning difficult data. Seems like a good method.
+  Have no idea how to write it for multiclassification in lightGBM & Xgboost API......
+A little bit extreme imbalance case with a relatively small dataset size, which could be the reasons for being very easy to overfit for gradient boosting methods.
